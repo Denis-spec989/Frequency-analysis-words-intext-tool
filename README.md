@@ -19,7 +19,7 @@ ___
 
 ![avat](https://raw.githubusercontent.com/Denis-spec989/Frequency-analysis-words-intext-tool/master/assets/dem1.jpg)
 
-**Задаем параметры входной строки в настройках проекта**
+**Задаем команду и название файла в Run->Arguments в настройках проекта**
 
 ![avat](https://raw.githubusercontent.com/Denis-spec989/Frequency-analysis-words-intext-tool/master/assets/dem2.jpg)
 
@@ -47,5 +47,19 @@ ___
 ___
 <a id="anchor4"></a>
 ### 4.Техническое описание проекта
+Для анализа нам необходимо правильно ввести  строку в Arguments->Run проекта.
+Команды и формат командной строки для работы с файлом.
+```Java
+System.out.println("формат ком.строки: имяПрограммы [-r<input-fileName>] [-w<output-fileName>]");
+	System.out.println("   -?  показать Help файл");
+	System.out.println("   -r  чтение из данного файла");
+	System.out.println("   -w  выполнить вывод в указанный файл");
+```
+![avat](https://raw.githubusercontent.com/Denis-spec989/Frequency-analysis-words-intext-tool/master/assets/dem2.jpg)
+Командная строка в аргументе -rreadme.txt означает чтение из файла readme.txt в директории, где лежит сам проект.
+Остается лишь запустить программу.
+___
+Автор: Игнатов Денис
+e-mail: proanglerdenis@gmail.com 
 
 
